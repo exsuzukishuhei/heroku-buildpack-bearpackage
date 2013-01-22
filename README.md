@@ -12,6 +12,8 @@ The config files are bundled with the buildpack itself:
 
 Configure Heroku to use this buildpack repo AND branch
 
-    heroku config:set BUILDPACK_URL=https://shuheisuzuki@bitbucket.org/shuheisuzuki/heroku-buildpack-bearpackage.git
+    heroku create -s cedar -b https://github.com/exsuzukishuhei/heroku-buildpack-bearpackage.git
+     OR
+    heroku config:set BUILDPACK_URL=https://github.com/exsuzukishuhei/heroku-buildpack-bearpackage.git
 
 
